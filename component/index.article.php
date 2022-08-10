@@ -3,11 +3,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 ?>
 <?php while ($this->next()): ?>
     <div class="article-list">
-        <?php if ($this->fields->banner && $this->fields->banner != ''): ?>
-            <div class="post-cover">
-                <img src="<?php $this->fields->banner(); ?>" alt="cover">
-            </div>
-        <?php endif; ?>
         <article>
             <?php $this->sticky(); ?>
             <div class="row">

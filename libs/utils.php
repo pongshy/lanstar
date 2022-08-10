@@ -405,7 +405,7 @@ EOF;
 
             } else {
                 $email = md5($email);
-                echo "https://dn-qiniu-avatar.qbox.me/avatar/" . $email . "?";
+                echo "https://sdn.geekzu.org/avatar/" . $email . "?";
             }
         } else {
             echo "https://dn-qiniu-avatar.qbox.me/avatar/null?";
